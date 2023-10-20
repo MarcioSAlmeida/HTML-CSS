@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@1&family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@1&family=Pacifico&display=swap');
+
+
+:root{
+    --font01:'Alumni Sans Collegiate One', sans-serif;
+    --font02: 'Alumni Sans Collegiate One', sans-serif;
+}
+
+header{
+    background-color: black;
+    color: aliceblue;
+
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body, html{
+    height: 100vh;
+   
+}
+
+header>h1{
+    padding-top: 50px;
+    text-align: center;
+    font-variant: small-caps;
+
+}
+
+header>p{
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+section{
+    padding: 10vh;
+}
+
+section>p{
+    font-family: var(--font01);
+    font-size: 20px;
+    text-shadow: 1px 1px 6px white;
+   
+}
+
+.ajuste{
+   
+    background-color: rgba(1, 3, 3, 0.093);
+    
+}
+
+#imagem01{
+    background-image: url('background001.jpg');
+    background-position: center right;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+#imagem02{
+    background-image: url('background002.jpg');
+    background-position: center right;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer{
+    font-family: var(--font01);
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    height: 30px;
+    padding-top: 10px;
+}
